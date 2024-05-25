@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ConSave</title>
+    <link rel="stylesheet" href="consave.css">
+</head>
+<body>
+    <!-- <img src="image\bg.jpg" alt="not available"> -->
+    <h1>ConSave</h1>
+    <div class="container">
+            <form id="contactForm">
+                <div class="form-group">
+                    <input type="text"  id="firstName" placeholder="First Name" required><br>
+                </div>
+                <div class="form-group">
+                    <input type="text"  id="lastName" placeholder="Last Name" required><br>
+                </div>
+                <div class="form-group">
+                    <input type="tel"  id="phoneNumber"  maxlength="10" placeholder="Phone Number" required><br>
+                </div>
+                <div class="form-group">
+                    <input type="email"  id="email" placeholder="Email Address" pattern="^[a-zA-Z0-9]+@gmail\.com$" required><br>
+                </div>
+                <div class="form-group">
+                    <input type="submit"  id="submit" value="Save">
+                </div>
+            </form>
+    </div>
+    
+
+    <div id="contactList"></div>
+
+    <script src="consave.js"></script>
+
+</body>
+
+</html>

@@ -1,0 +1,114 @@
+body {
+    font-family: "Open Sans", sans-serif;
+    background-color: rgb(154, 106, 198);
+}
+
+h1{
+    /* border: 2px solid red; */
+    width: 400px;
+    height: 100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 40px auto;
+    background-color: #31045a;
+    color: bisque;
+    border-radius: 10px;
+    font-size: 60px;
+    margin-top: 50px;
+}
+
+
+.box{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 1% auto;
+    padding: 1% 2%;
+}
+#contactForm{
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    /* margin: 0px 300px; */
+    /* padding: 0px 240px; */
+    width: 225px;
+}
+.form-group{
+    margin: 2px;
+    padding: 20px;
+    /* border: 2px solid red; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0% auto;
+    width: 200px;
+}
+.form-group input{
+    width: 250px;
+    height: 45px;
+    background-color: bisque;
+    text-align: center;
+    border-radius: 10px;
+    border-style: none;
+    font-size: 20px;
+}
+#contactForm #submit{
+    background-color: black;
+    color: bisque;
+}
+#contactForm #submit:hover{
+    background-color: rgb(21, 8, 79);
+    cursor: pointer;
+    
+}
+
+#contactList{
+    
+}
+#contactList div{
+    background-color: bisque;
+    color: rgb(34, 11, 11);
+    height: 175px;
+    width: 350px;
+    border-radius: 10px;
+    text-align: center;
+    padding: 2px;
+    margin: 5px auto;
+}
+#contactList div button{
+    border-style: none;
+    background-color: black;
+    color: bisque;
+    border-radius: 20px;
+}
+#contactList div button:hover{
+    border-style: none;
+    background-color: rgb(16, 8, 78);
+    color: bisque;
+    cursor: pointer;
+}
+
+@media (width>475px){
+    .container{
+        width: 500px;
+        height: 430px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        margin: 0px auto;
+        border-radius: 10px;
+    }
+}  
+ 
+@media (width<475px){
+    .container{
+        width: 430px;
+        height: 430px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        margin: 0px auto;
+        border-radius: 10px;
+    }
+}
